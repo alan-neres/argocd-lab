@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meugo
+spec:
+  selector:
+    matchLabels:
+      app: meugo
+  template:
+    metadata:
+      labels:
+        app: meugo
+    spec:
+      containers:
+      - name: meugo
+        image: aneresdevops/argocd:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
