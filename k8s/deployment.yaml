@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: meugo
+  namespace: meugo
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       app: meugo
