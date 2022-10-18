@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: meugo
 spec:
+  replicas: 10
   selector:
     matchLabels:
       app: meugo
