@@ -9,7 +9,7 @@ namespace: meugo
 images:
 - name: goapp
   newName: aneresdevops/argocd
-  newTag: 6f7670a0a3cb2ff10d735034909282dbc6ee1d56
+  newTag: 90f0fd45fa58a5d72ddbc0f37802fb16153350fc
 - name: meugo
   newName: aneresdevops/argocd
   newTag: e37a2099a83f455445ad876016f930b4ec6da4f3
