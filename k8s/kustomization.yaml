@@ -7,6 +7,9 @@ resources:
 namespace: default
 
 images:
+- name: goapp
+  newName: aneresdevops/argocd
+  newTag: 78ba6f8198d2777949c9aa44d6e71a9ccc7a173b
 - name: meugo
   newName: aneresdevops/argocd
   newTag: e37a2099a83f455445ad876016f930b4ec6da4f3
